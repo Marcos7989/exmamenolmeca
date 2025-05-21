@@ -1,0 +1,954 @@
+
+.pagina1 {
+ font-family: Arial, sans-serif;
+ margin: 0;
+padding: 0;
+background-color: rgb(0, 0, 0);
+    }
+   .pagina1 header {
+        background: rgb(200, 30, 30);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        border-radius: 6px;
+    }
+      .fore {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  border-radius: 5px; 
+}
+   .pagina1 header img{
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+   .pagina1 main {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        text-align: justify;
+        border-color: rgb(15, 15, 15);
+    }
+
+
+.pagina1 .izquierda {
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    flex: 1;
+    text-align: left;
+    text-align: justify;
+   gap: 20px;
+}
+.pagina1 .derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    flex: 1;
+    text-align: right; 
+    text-align: justify;
+    gap: 20px;
+
+}
+.pagina1 .izquierda img,
+.pagina1 .derecha img {
+    width: 300px;
+    height: 270px;
+    gap: 20px;
+}  
+   .pagina1 .content,.sidebar {
+        background: rgb(255, 255, 255);
+        padding: 25px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        border-radius: 7px;    
+    }
+.pagina1 .content {
+    flex: 2;
+    margin-right: 8px;   
+}
+.pagina1 .sidebar {
+    flex: 0.2;
+    width: 100%;
+}
+    
+  .pagina1  footer {
+        background: rgb(179, 35, 35);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 6px;
+    }
+    iframe {
+width: 100%; 
+height: 500px; 
+border: none;
+}
+@media (max-width: 480px) {
+    .pagina1{
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}
+/*______________________________________________________________________________SEGUNDA PAGINA WEB__________________________________________________________________________________________________________*/
+
+.pagina2 {
+ font-family:  Arial, sans-serif;
+ margin: 0;
+padding: 0;
+background-color: rgb(0, 0, 0);
+    }
+    
+   .pagina2 header {
+        background: rgb(179, 35, 35);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+    }
+      .for {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(178, 34, 34);
+  border-radius: 5px; 
+   
+}
+    .pagina2 header img {
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .pagina2 main {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        text-align: justify;
+        border-color: rgb(25, 25, 25);
+    }
+
+.pagina2 .izquierda {
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    flex: 1;
+    text-align: left; 
+    text-align: justify;
+   gap: 20px;
+}
+
+.pagina2 .derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    flex: 1;
+    text-align: right; 
+    text-align: justify;
+    gap: 20px;
+
+}
+
+.pagina2 .izquierda img,
+.pagina2 .derecha img {
+    width: 300px;
+    height: 270px;
+    gap: 20px;
+}
+
+    .pagina2 .pila{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px ;
+    }
+
+    .pagina2 .pila img {
+        width: 300px;
+        height: 270px;
+    }
+    
+    .pagina2 .contenido, .sibebar {
+        background: rgb(255, 255, 255);
+        padding: 25px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        border-radius: 7px;
+        
+    }
+    .pagina2 .contenido {
+    flex: 2;
+    margin-right: 8px;   
+}
+.pagina2 .sibebar {
+    flex: 0.2;
+    width: 100%;
+}
+   .pagina2 footer {
+        background: rgb(179, 35, 35);             
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    iframe {
+width: 100%; 
+height: 500px; 
+border: none;
+    }
+    
+@media (max-width: 480px) {
+    .pagina2{
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}
+    /*___________________________________________________________________________________TERCERA PARTE__________________________________________________*/
+.pagina3 {
+ font-family: Arial, sans-serif;
+ margin: 0;
+padding: 0;
+background-color: rgb(0, 0, 0);
+    }
+    
+   .pagina3 header {
+        background: rgb(179, 35, 35);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        border-radius: 6px;
+    }
+      .for {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(178, 34, 34);
+  border-radius: 5px; 
+   
+}
+   .pagina3 header img{
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+    
+   .pagina3 main {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        text-align: justify;
+        border-color: rgb(15, 15, 15);
+    }
+
+
+.pagina3 .izquierda {
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    flex: 1;
+    text-align: left;
+    text-align: justify;
+   gap: 20px;
+}
+
+.pagina3 .derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    flex: 1;
+    text-align: right; 
+    text-align: justify;
+    gap: 20px;
+
+}
+
+.pagina3 .izquierda img,
+.pagina3 .derecha img {
+    width: 300px;
+    height: 270px;
+    gap: 20px;
+}
+
+    
+    
+   .pagina3 .arroz,.bidebar {
+        background: rgb(255, 255, 255);
+        padding: 25px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        border-radius: 7px;
+        
+    }
+     .pagina3 .arroz {
+    flex: 2;
+    margin-right: 8px;   
+}
+.pagina3 .bidebar {
+    flex: 0.2;
+    width: 100%;
+}
+    
+    
+  .pagina3  footer {
+        background: rgb(179, 35, 35);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 6px;
+    }
+    iframe {
+width: 100%; 
+height: 500px; 
+border: none;
+}
+
+
+@media (max-width: 480px) {
+    .pagina3{
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}
+/*___________________________________________________________________________________________Cuarta PARTE_______________________________________________________________*/
+
+.pagina4 {
+ font-family:  Arial, sans-serif;
+ margin: 0;
+padding: 0;
+background-color: rgb(0, 0, 0);
+    }
+    
+   .pagina4 header {
+        background: rgb(179, 35, 35);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+    }
+      .for {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(178, 34, 34);
+  border-radius: 5px; 
+   
+}
+    .pagina4 header img {
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .pagina4 main {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        text-align: justify;
+        border-color: rgb(25, 25, 25);
+    }
+
+.pagina4 .izquierda {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+    text-align: left; 
+    text-align: justify;
+   gap: 20px;
+}
+
+.pagina4 .derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    flex: 1;
+    text-align: right; 
+    text-align: justify;
+    gap: 20px;
+
+}
+
+.pagina4 .izquierda img,
+.pagina4 .derecha img {
+    width: 300px;
+    height: 270px;
+    gap: 20px;
+}
+
+    .pagina4 .pila{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px ;
+    }
+
+    .pagina4 .pila img {
+        width: 300px;
+        height: 270px;
+    }
+    
+    .pagina4 .marcos, .rasabar {
+        background: rgb(255, 255, 255);
+        padding: 25px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        border-radius: 7px;
+        
+    }
+    
+    .pagina4 .marcos {
+    flex: 2;
+    margin-right: 8px;   
+}
+.pagina4 .rasabar {
+    flex: 0.2;
+    width: 100%;
+}
+    
+   .pagina4 footer {
+        background: rgb(179, 35, 35);             
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    iframe {
+width: 100%; 
+height: 500px; 
+border: none;
+    }
+    
+@media (max-width: 480px) {
+    .pagina4{
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}
+    /*____________________________________________________________________________________PAGINA QUINTA_________________________________________________________________*/
+    .pagina5 {
+ font-family:  Arial, sans-serif;
+ margin: 0;
+padding: 0;
+background-color: rgb(0, 0, 0);
+    }
+    
+   .pagina5 header {
+        background: rgb(179, 35, 35);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+    }
+      .for {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(178, 34, 34);
+  border-radius: 5px; 
+   
+}
+    .pagina5 header img {
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .pagina5 main {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        text-align: justify;
+        border-color: rgb(25, 25, 25);
+    }
+
+.pagina5 .izquierda {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+    text-align: left; 
+    text-align: justify;
+   gap: 20px;
+}
+
+.pagina5 .derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    flex: 1;
+    text-align: right; 
+    text-align: justify;
+    gap: 20px;
+
+}
+
+.pagina5 .izquierda img,
+.pagina5 .derecha img {
+    width: 300px;
+    height: 270px;
+    gap: 20px;
+}
+
+    .pagina5 .pila{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px ;
+    }
+
+    .pagina5 .pila img {
+        width: 300px;
+        height: 270px;
+    }
+    
+    .pagina5 .marcos, .beber {
+        background: rgb(255, 255, 255);
+        padding: 25px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        border-radius: 7px;
+
+    }
+     .pagina5 .marcos {
+    flex: 2;
+    margin-right: 8px;   
+}
+.pagina5 .beber {
+    flex: 0.2;
+    width: 100%;
+}
+   .pagina5 footer {
+        background: rgb(179, 35, 35);             
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    iframe {
+width: 100%; 
+height: 500px; 
+border: none;
+    }
+    @media (max-width: 480px) {
+    .pagina5{
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}
+/*_________________________________________________________________________QUINTA PARTE____________________________________________________________________________________*/
+
+html {
+    scroll-behavior: smooth;
+}
+.menu {
+    display: flex;
+    flex-direction: column; 
+    list-style: none;
+    padding: 0;
+    width: 200px; 
+}
+.menu > li {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.menu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: rgb(167, 28, 28);
+    color: white;
+    border-radius: 5px;
+}
+.menu a:hover {
+    background: rgb(111, 6, 6);
+}
+.menu ul {
+    position: relative;
+    display: none; 
+    list-style: none;
+    padding: 0;
+    background: rgb(215, 82, 82);
+    border-radius: 5px;
+    width: 180px;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu ul li a {
+    padding: 10px;
+    display: block;
+    color: white;
+    background: rgb(238, 90, 90);
+}
+/*colores de examen*/
+.menu a[href*="/examen"] {
+    background-color: rgb(209, 12, 12);
+}
+.menu a[href*="/examen"]:hover {
+    background-color: rgb(187, 8, 59);
+}
+.menu a[href*="/examen"]:hover {
+    background-color: rgb(187, 8, 59);
+}
+.menu a[href*="El jaguar.html"]:hover {
+    background-color: rgb(187, 8, 59);
+}
+.menu a[href*="la sacerdote.html"]:hover {
+    background-color: rgb(187, 8, 59);
+}
+.menu a[href*="el sabio.html"]:hover {
+    background-color: rgb(187, 8, 59);
+}
+.menu a[href*="ultimo.html"]:hover {
+    background-color: rgb(187, 8, 59);
+}
+/*_________________________________________________________________________________PARTE SEIS___________________________________________________________*/
+ table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: rgb(55, 50, 55);
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+
+
+        /*____________________________________________________________________________________________TABLA NUMERO 2_______________________________________________________________*/
+
+/*__________________________________________________________________________________________________________FORMULARIO___________________________________________________*/
+.formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+   background: url(https://histomex.org/wp-content/uploads/vestimenta-olmeca-un-reflejo-cultural-ancestral-de-mexico.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+}
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #34495e;
+}
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+textarea {
+    resize: none;
+}
+.titulo-marketing {
+    font-size: 18px;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+.marketing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.opcion {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.opcion:hover {
+    background-color: rgb(116, 122, 153);
+}
+.opcion input {
+    margin-right: 5px;
+}
+button {
+    background-color: rgb(55, 87, 214);
+}
+button:hover {
+    background-color: rgb(0, 89, 255);
+}
+
+
+@media(max-width: 768px) {
+    form {
+        padding: 10px;
+    }
+    input, select, textarea, button {
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+   .formulario{
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}
+/*______________________________________________________________________________________PAGINA#1 EXAMEN_____________________________________________________________________________*/
+.jaguar {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+.jaguar header {
+    background: rgb(30, 144, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 6px;
+}
+.jaguar .forms {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(30, 144, 255);
+    border-radius: 5px; 
+}
+.jaguar header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.jaguar main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: justify;
+    border-color: rgb(15, 15, 15);
+}
+
+.jaguar .izquierda {
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    flex: 1;
+    text-align: left;
+    text-align: justify;
+    gap: 20px;
+}
+
+.jaguar .derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    flex: 1;
+    text-align: right; 
+    text-align: justify;
+    gap: 20px;
+}
+
+.jaguar .izquierda img,
+.jaguar .derecha img {
+    width: 300px;
+    height: 270px;
+    gap: 20px;
+}
+
+.jaguar .dios,
+.jaguar .bebida {
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    border-radius: 7px;
+}
+.jaguar .dios {
+    flex: 2;
+    margin-right: 8px;   
+}
+.jaguar .bebida {
+    flex: 0.2;
+    width: 100%;
+}
+.jaguar footer {
+    background: rgb(30, 144, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+iframe {
+    width: 100%; 
+    height: 500px; 
+    border: none;
+}
+
+@media (max-width: 480px) {
+    .pagina1 {
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}
+
+/*__________________________________________________________________________________________LA CACERDOTE______________________________________________________________________*/
+.sacerdote {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.sacerdote header {
+    background: rgb(30, 144, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 6px;
+}
+
+.sacerdote .forms {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(30, 144, 255);
+    border-radius: 5px; 
+}
+
+.sacerdote header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.sacerdote main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: justify;
+    border-color: rgb(15, 15, 15);
+}
+
+.sacerdote .izquierda {
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    flex: 1;
+    text-align: left;
+    text-align: justify;
+    gap: 20px;
+}
+
+.sacerdote .derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    flex: 1;
+    text-align: right; 
+    text-align: justify;
+    gap: 20px;
+}
+.sacerdote .izquierda img,
+.sacerdote .derecha img {
+    width: 300px;
+    height: 270px;
+    gap: 20px;
+}
+.sacerdote .lulu,
+.sacerdote .cajon {
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    border-radius: 7px;
+}
+.sacerdote .lulu {
+    flex: 2;
+    margin-right: 8px;   
+}
+.sacerdote .cajon {
+    flex: 0.2;
+    width: 100%;
+}
+.sacerdote footer {
+    background: rgb(30, 144, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+iframe {
+    width: 100%; 
+    height: 500px; 
+    border: none;
+}
+@media (max-width: 480px) {
+    .pagina1 {
+        font-size: 14px;
+        background-color: lightcoral;
+    }
+}

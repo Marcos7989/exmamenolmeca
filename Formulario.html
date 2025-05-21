@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="formulario">
+    <form action="Olmecas.html" method="GET">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" maxlength="30">
+
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="correo@empresa.com" maxlength="30">
+
+        <label for="asunto">Asunto</label>
+        <select name="asunto" id="asunto">
+            <option value="informacion_web">Conocer más sobre este sitio web</option>
+<option value="cita_previa">Solicitar cita previa</option>
+<option value="consulta_general">Consulta general</option>
+<option value="sugerencias">Enviar una sugerencia</option>
+<option value="otro_tema">Otros temas</option>
+
+        </select>
+
+       <label for="marketing" class="titulo-marketing">¿Cómo nos conociste?</label>
+<div class="marketing">
+    <div class="opcion">
+        <input type="checkbox" value="amigo" id="amigo">
+        <label for="amigo">✨ Un amigo</label> 
+    </div>
+
+    <div class="opcion">
+        <input type="checkbox" value="google" id="google">
+        <label for="google">🔎 Buscando en Google</label> 
+    </div>
+
+    <div class="opcion">
+        <input type="checkbox" value="redsocial" id="redsocial">
+        <label for="redsocial">📱 En redes sociales</label> 
+    </div>
+
+    <div class="opcion">
+        <input type="checkbox" value="otros" id="otros">
+        <label for="otros">🌍 Otro medio</label> 
+    </div>
+</div>
+
+        <label for="mensaje">Escribe tu mensaje</label>
+        <textarea name="mensaje" id="mensaje" maxlength="30"></textarea>
+        <input type="checkbox" id="rgpd" value="ACEPTA_RGPD" required>
+        
+        <label for="rgpd" class="rgpd">He leído y acepto el <a href="#" target="_blank">aviso legal y la política de privacidad</a></label>
+
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>
