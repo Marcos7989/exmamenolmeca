@@ -767,7 +767,7 @@ button:hover {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    background-color: rgb(30, 144, 255);
+    background-color: rgb(200, 30, 30);
     border-radius: 5px; 
 }
 .jaguar header img {
@@ -822,11 +822,12 @@ button:hover {
 .jaguar .dios {
     flex: 2;
     margin-right: 8px;   
+  background: rgb(0, 168, 107);
 }
 .jaguar .bebida {
     flex: 0.2;
     width: 100%;
-  background-color: rgb(30, 144, 255);
+  background-color: rgb(30, 144, 245);
 }
 .jaguar footer {
     background: rgb(200, 30, 30);
@@ -875,7 +876,7 @@ iframe {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    background-color: rgb(30, 144, 255);
+    background-color: rgb(200, 30, 30);
     border-radius: 5px; 
 }
 
@@ -928,12 +929,13 @@ iframe {
 }
 .sacerdote .lulu {
     flex: 2;
-    margin-right: 8px;   
+    margin-right: 8px;  
+  background: rgb(0, 168, 107);
 }
 .sacerdote .cajon {
     flex: 0.2;
     width: 100%;
- background-color: rgb(30, 144, 255);
+ background-color: rgb(30, 144, 245);
  backgroun
 }
 .sacerdote footer {
