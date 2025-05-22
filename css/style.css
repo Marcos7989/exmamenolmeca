@@ -752,7 +752,7 @@ button:hover {
     background-color: rgb(0, 0, 0);
 }
 .jaguar header {
-    background: rgb(30, 144, 255);
+    background: rgb(200, 30, 30);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
@@ -826,9 +826,10 @@ button:hover {
 .jaguar .bebida {
     flex: 0.2;
     width: 100%;
+  background-color: rgb(30, 144, 255);
 }
 .jaguar footer {
-    background: rgb(30, 144, 255);
+    background: rgb(200, 30, 30);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
@@ -858,7 +859,7 @@ iframe {
 }
 
 .sacerdote header {
-    background: rgb(30, 144, 255);
+    background: rgb(200, 30, 30);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px;
@@ -932,9 +933,11 @@ iframe {
 .sacerdote .cajon {
     flex: 0.2;
     width: 100%;
+ background-color: rgb(30, 144, 255);
+ backgroun
 }
 .sacerdote footer {
-    background: rgb(30, 144, 255);
+    background: rgb(200, 30, 30);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
